@@ -1,0 +1,74 @@
+body {
+  background: #ffd89b;
+  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+  background: linear-gradient(to right, #ffd89b, #19547b);
+  /* min-height: 100vh; */
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.dictionary {
+  font-size: 60px;
+  background: -webkit-linear-gradient(#7f8c8d, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.conTwo {
+  border: 1px solid white;
+  height: fit-content;
+  display: none;
+}
+
+hr {
+  background-color: aqua;
+}
+
+.para {
+  border: 1px solid white;
+  margin: 5px;
+  padding: 3px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.word {
+  /* border: 1px solid white; */
+  font-size: x-large;
+  text-transform: capitalize;
+  margin: 3px;
+  font-weight: bold;
+}
+.phonetic {
+  color: whitesmoke;
+  font-size: large;
+  /* border: 1px solid white; */
+  margin: 3px;
+}
+
+.audio {
+  /* border: 1px solid white; */
+  margin: 3px;
+}
+
+.meaningOne,
+.meaningTwo,
+.meaningThree {
+  color: white;
+  font-size: large;
+}
